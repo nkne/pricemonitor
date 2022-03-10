@@ -1,0 +1,119 @@
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no"/>
+        <!--      <link rel="shortcut icon" href="favicon.png">    -->
+        <title>PRICE MONITOR</title>
+	
+        <style type="text/css">
+            * {font-family: 'Arial', 'monospace';}
+            body {text-align: center;}
+            table {font-size:20px; margin: auto; border: 2px;}
+        </style>
+
+
+    </head>
+    <body style="background-color:black;">
+
+
+
+
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+   
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols": [
+      {
+        "description": "S&P 500",
+        "proName": "CURRENCYCOM:US500"
+      },
+      {
+        "description": "BTCUSDT",
+        "proName": "BINANCE:BTCUSDT"
+      },
+      {
+        "description": "ETHUSDT",
+        "proName": "BINANCE:ETHUSDT"
+      }
+    ],
+    "showSymbolLogo": true,
+    "colorTheme": "dark",
+    "isTransparent": false,
+    "displayMode": "regular",
+    "locale": "es"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+
+
+<br>
+
+<table style="height: 420px; width: 100%;">
+<tr>
+  <!-- TradingView Widget BEGIN -->
+
+
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+    {
+    "interval": "1D",
+    "width": "100%",
+    "isTransparent": false,
+    "height": "100%",
+    "symbol": "BINANCE:BTCUSDT",
+    "showIntervalTabs": false,
+    "locale": "es",
+    "colorTheme": "dark"
+  }
+    </script>
+
+  <!-- TradingView Widget END -->
+</tr>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  
+    </body>
+</html>
